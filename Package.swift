@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "MEW-wallet-iOS-secp256k1-package",
-            path: "Sources/MEW-wallet-iOS-secp256k1",
+            path: "Sources/MEW-iOS-secp256k1",
             exclude: [
                 "contrib/travis.sh",
                 
